@@ -1,7 +1,10 @@
-name: "Hello world"
-description: "My first real add-on!"
+name: "ddclient dynamic dns updater"
+description: "ddclient extension for home assistant"
 version: "1.0.0"
-slug: "hello_world"
+url: "https://github.com/alfonsocatanzaro/hass_ddclient"
+slug: "hass_ddclient"
+map:
+  - config
 init: false
 arch:
   - aarch64
@@ -9,3 +12,7 @@ arch:
   - armhf
   - armv7
   - i386
+options:
+  file: ddclient.conf
+schema:
+  file: str
