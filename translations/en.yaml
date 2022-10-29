@@ -1,0 +1,4 @@
+configuration:
+  DDCLIENT_CONF:
+    name: ddclient config file
+    description: Must be in config folder. Default is "ddclient.conf". 
