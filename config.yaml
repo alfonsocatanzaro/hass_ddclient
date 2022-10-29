@@ -13,6 +13,6 @@ arch:
   - armv7
   - i386
 options:
-  file: ddclient.conf
+  DDCLIENT_CONF: "ddclient.conf"
 schema:
-  file: str
+  DDCLIENT_CONF: "str"
