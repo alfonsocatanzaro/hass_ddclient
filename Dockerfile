@@ -1,7 +1,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-RUN apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing ddclient
+RUN set -x && apk add --no-cache --repository https://dl-cdn.alpinelinux.org/alpine/edge/testing ddclient
 
 # Copy data for add-on
 COPY run.sh /
