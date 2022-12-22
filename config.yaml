@@ -1,6 +1,6 @@
 name: "Home assistant ddclient"
 description: "Home assistant ddclient extension allows to use ddclient to perform automatic update of a various dynamic dns"
-version: "1.0.1"
+version: "1.0.2"
 url: "https://github.com/alfonsocatanzaro/hass_ddclient"
 slug: "ddclient"
 map:

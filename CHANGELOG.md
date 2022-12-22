@@ -1,3 +1,6 @@
+## v1.0.2 [2022-11-07]
+* Fix apk command parameter
+
 ## v1.0.1 [2022-11-07]
 * Add documentation
 * Add changelog
